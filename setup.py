@@ -1,4 +1,4 @@
-from distutils.core import setup
+from distutils.core import setup, find_packages
 
 setup(name='PyWaves',
       version='1.0',
@@ -6,5 +6,5 @@ setup(name='PyWaves',
       author='PyWaves',
       author_email=' ',
       url='https://github.com/PyWaves/PyWaves',
-      packages=['distutils', 'distutils.command'],
+      packages=find_packages()
      )
